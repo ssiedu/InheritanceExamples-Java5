@@ -1,24 +1,23 @@
-
 public class B extends A {
 
-    public void f3() {
-        System.out.println("goodbye");
+    int n=200;
+    
+    public B(){
+        System.out.println("Constructor of B");
     }
-
-    public void f4() {
-        System.out.println("seeyou");
+    
+    public void show(){
+        System.out.println("Welcome from B");
     }
-
-    public void messages() {
-        f1();
-        f2();
-        f3();
-        f4();
+    public void display(){
+        super.show();
+        //System.out.println(n);
+        //System.out.println(super.n);
     }
     
     public static void main(String args[]){
         B ob=new B();
-        ob.messages();
+        //ob.display();
     }
     
     

@@ -1,9 +1,10 @@
 public class A {
-    public void f1(){
-        System.out.println("hello");
+    int n=100;
+    
+    public A(){
+        System.out.println("Constructor of A");
     }
-    public void f2(){
-        System.out.println("welcome");
+    public void show(){
+        System.out.println("Welcome from A");
     }
-            
 }
