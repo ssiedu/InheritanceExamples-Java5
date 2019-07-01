@@ -2,6 +2,8 @@ public abstract class Shape {
     
     private double radius;
 
+    public abstract void area();
+    
     public final double getRadius() {
         return radius;
     }
@@ -9,9 +11,4 @@ public abstract class Shape {
     public final void setRadius(double radius) {
         this.radius = radius;
     }
-    
-    public void info(){
-        System.out.println("Its A Shape");
-    }
-    public abstract void area();
 }
